@@ -134,6 +134,10 @@ section > p {
 
 /* third page */
 
+.why-title {
+  margin-bottom: 40px;
+}
+
 .reasons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
