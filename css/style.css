@@ -1,0 +1,153 @@
+ * {
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ .main-container {
+   margin: 20px;
+ }
+
+ nav ul{
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr;
+  list-style: none;
+
+}
+
+.sub-title {
+  text-align: center;
+  padding: 50px;
+  font-weight: bold;
+}
+
+/* intro */
+.intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px; 
+  justify-content: center;
+  height: 300px;
+}
+
+.intro > sub, .intro > a {
+  padding: 20px;
+}
+
+
+/* second page */
+section > blockquote {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+section > blockquote::before {
+  content: open-quote;
+}
+
+section > blockquote::after {
+  content: close-quote;
+}
+
+section > p {
+  text-align: right;
+}
+
+[class="quoter"]::before {
+  content: "--";
+}
+
+/* third page */
+/* .reasons-container {
+  margin: 20px;
+} */
+
+.reasons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  list-style: none;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.reason {
+  display: flex;
+}
+
+.reason > img {
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+}
+
+.reason > div {
+  padding-left: 20px;
+}
+
+.reason:last-of-type {
+  padding: 0;
+}
+
+.reason > div > p {
+  padding-top: 10px;
+}
+
+
+/* 4th page */
+.teams {
+  padding: 30px 80px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.member > img {
+  border-radius: 50%;
+  padding: 30px;
+}
+
+
+/* 5th page */
+.sponsors {
+  list-style: none; 
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sponsors img {
+  padding-bottom: 20px;
+}
+
+
+/* last page */
+.footer-container {
+  display: flex;
+  flex-direction: flex-start;
+}
+
+.about {
+  margin-left: 100px;
+}
+
+.footer-container h3, .footer-container ul {
+  padding: 20px;
+
+}
+
+.footer-container li {
+  list-style: none;
+}
